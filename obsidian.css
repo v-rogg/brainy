@@ -97,7 +97,7 @@
 
 /* Preview */
 .markdown-preview-view {
-    font: var(--font-family-preview);
+    /*font: var(--font-family-preview);*/
     font-size: 12px;
 }
 
