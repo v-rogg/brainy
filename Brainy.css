@@ -1,0 +1,153 @@
+:root {
+    --scheme-type: dark;
+    --primary: #dcddde;
+    --secondary: #202020;
+    --tertiary: #7b6cd9;
+    --quaternary: #483699;
+    --header_background: #161616;
+    --header_primary: #dcddde;
+    --highlight: #7a6ae6;
+    --danger: #db5151;
+    --success: #197300;
+    --love: #705dcf;
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 220,221,222;
+    --primary-low-rgb: 47.19,48.62,50.05;
+    --secondary-rgb: 32,32,32;
+    --header_background-rgb: 22,22,22;
+    --tertiary-rgb: 123,108,217;
+    --primary-very-low: #272829;
+    --primary-low: #2f3132;
+    --primary-low-mid: #767a7d;
+    --primary-medium: #8c9093;
+    --primary-high: #a3a6a8;
+    --primary-very-high: #c5c7c9;
+    --header_primary-low: #494949;
+    --header_primary-low-mid: #838485;
+    --header_primary-medium: #a4a5a5;
+    --header_primary-high: #b8b9ba;
+    --header_primary-very-high: #d1d2d3;
+    --secondary-low: #bcbcbc;
+    --secondary-medium: #909090;
+    --secondary-high: #636363;
+    --secondary-very-high: #303030;
+    --tertiary-low: #21175a;
+    --tertiary-medium: #33258e;
+    --tertiary-high: #4632c2;
+    --tertiary-hover: #9589e1;
+    --quaternary-low: #16102e;
+    --highlight-low: #100a3a;
+    --highlight-medium: #241681;
+    --highlight-high: #604de1;
+    --danger-low: #591313;
+    --danger-low-mid: rgba(99,21,21,0.7);
+    --danger-medium: #a22121;
+    --danger-hover: #c72929;
+    --success-low: #0a2e00;
+    --success-medium: #0f4500;
+    --success-hover: #145c00;
+    --love-low: #261b5d;
+    --wiki: green;
+    --blend-primary-secondary-5: #3a3a3b;
+    --primary-med-or-secondary-med: #909090;
+    --primary-med-or-secondary-high: #636363;
+    --primary-high-or-secondary-low: #bcbcbc;
+    --primary-low-mid-or-secondary-high: #636363;
+    --primary-low-mid-or-secondary-low: #bcbcbc;
+    --primary-or-primary-low-mid: #767a7d;
+    --highlight-low-or-medium: #241681;
+    --tertiary-low-or-tertiary-high: #4632c2;
+    --tertiary-med-or-tertiary: #7b6cd9;
+    --secondary-or-primary: #dcddde;
+    --tertiary-or-white: #fff;
+    --facebook-or-white: #fff;
+    --twitter-or-white: #fff;
+    --hljs-comment: #bba;
+    --hljs-number: #aff;
+    --hljs-string: #f99;
+    --hljs-literal: #9ae;
+    --hljs-tag: #99f;
+    --hljs-attribute: #0ee;
+    --hljs-symbol: #fbe;
+    --hljs-bg: #333;
+    --google: #fff;
+    --google-hover: #f2f2f2;
+    --instagram: #e1306c;
+    --instagram-hover: #ac194b;
+    --facebook: #1877f2;
+    --facebook-hover: #0a54b3;
+    --cas: #70ba61;
+    --twitter: #1da1f2;
+    --twitter-hover: #0c85d0;
+    --github: #100e0f;
+    --github-hover: #463e42;
+    --discord: #7289da;
+    --discord-hover: #4a67cf;
+    --gold: #e7c300;
+    --silver: silver;
+    --bronze: #cd7f32;
+    /*--font-family-editor:    'JetBrains Mono', sans-serif;*/
+    /*--font-monospace:        var(--font-family-editor);*/
+    /*--font-family-preview:   'Pulp Display', 'JetBrains Mono', sans-serif;*/
+}
+
+.nav-file-title-content {
+    font-style: italic;
+}
+
+/* Preview */
+.markdown-preview-view {
+    font: var(--font-family-preview);
+    font-size: 12px;
+}
+
+/* H2 Heading */
+.markdown-preview-view h2 {
+    padding: 1.75rem 0 0;
+}
+
+/* Horizontal Line */
+.markdown-preview-view hr {
+    padding: 0;
+    margin: 0;
+}
+
+/* Tags */
+.markdown-preview-view a.tag {
+    display: inline-block;
+    line-height: 18px;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    padding: 0 10px;
+    color: var(--highlight);
+    background-color: rgba(72, 54, 153, .3);
+}
+
+/* External Link */
+.external-link {
+    background-size: 10px;
+    padding-right: 13px;
+    background-position-y: 2px;
+}
+
+/* Timeline */
+.timeline {
+    row-gap: 2rem !important;
+}
+.timeline .info::after {
+    height: 1.2em !important;
+}
+.timeline .time *, .timeline .title * {
+    font-size: 14px !important;
+}
+.timeline .info .title {
+    margin-bottom: 0.5em !important;
+}
+
+.timeline .main-line {
+    border-radius: 1em;
+}
+
+.timeline .time::before {
+    border-radius: 1em;
+}
